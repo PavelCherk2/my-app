@@ -1,0 +1,64 @@
+.block {
+    background-color: rgb(253, 253, 244);
+    width: 340px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 4px 4px rgb(136, 136, 136);
+}
+
+.headBlock {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    color: rgb(253, 253, 244);
+    padding: 12px;
+    font-size: 20px;
+}
+
+.blockforCards {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1060px;
+}
+
+.priceBlock {
+    width: 230px;
+    text-align: center;
+    opacity: 0.6;
+    background-color: black;
+    color: rgb(253, 253, 244);
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -24px;
+    padding: 4px;
+    margin-bottom: 30px;
+}
+
+.upBlock {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    color: rgb(253, 253, 244);
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.liBlock {
+    text-align: center;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.liBlock li {}

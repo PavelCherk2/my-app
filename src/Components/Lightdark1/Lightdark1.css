@@ -1,0 +1,56 @@
+.light img,
+.dark img {
+    margin-left: 85%;
+    margin-top: 2%;
+    width: 100px;
+}
+
+/* .dark img {
+    margin-left: 85%;
+    margin-top: 2%;
+    width: 100px;
+} */
+
+.light {
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(243, 226, 149);
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.light img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.light p {
+    font-size: 20px;
+    color: rgb(231, 91, 26);
+}
+
+.dark {
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(4, 13, 143);
+    padding: 10px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.dark img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dark p {
+    font-size: 20px;
+    color: rgb(234, 240, 255);
+}
