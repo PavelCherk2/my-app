@@ -8,22 +8,22 @@ export function ThemeChange() {
     if (theme == 'light') {
       let value = 'dark'
       setTheme(value)
-      document.body.classList.add("dark");
+      document.body.classList.add("darkest");
     }
     else if (theme == 'dark') {
       let value = 'light'
       setTheme(value)
-      document.body.classList.remove("dark");
+      document.body.classList.remove("darkest");
     }
   }
   return <div>
-    <img src={theme === "dark" ? "light.png" : "dark.png"} onClick={func} ></img>
+    <img src={theme === "dark" ? "light.png" : "dark.png"} onClick={func} className='toggleBtn'></img>
     <div className={theme}>
       <p>
         Раньше я говорил: «Я надеюсь, что все изменится».
         Потом я понял, что существует единственный способ, чтобы все изменилось, — измениться мне самому. Джим Рон
       </p>
-      <img src='pict1.png'></img>
+      <img src='pict1.png' className='pict'></img>
       <p>
         Большинство неудачников — это люди, которые не поняли, насколько близки они были к успеху, когда сдались. Томас Эдисон
       </p>

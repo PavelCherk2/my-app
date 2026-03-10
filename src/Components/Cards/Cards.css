@@ -5,6 +5,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 2px 2px 4px 4px rgb(136, 136, 136);
+    transition: 1s;
+}
+
+.block:hover {
+    transform: scale(1.10);
+    transition: 1s;
+    z-index: 10;
 }
 
 .headBlock {
@@ -12,7 +19,6 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
     color: rgb(253, 253, 244);
     padding: 12px;
     font-size: 20px;
@@ -34,12 +40,12 @@
     opacity: 0.6;
     background-color: black;
     color: rgb(253, 253, 244);
-    font-size: 14px;
+    font-size: 16px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -24px;
     padding: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .upBlock {
@@ -47,18 +53,18 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
     color: rgb(253, 253, 244);
     padding: 12px;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .liBlock {
     text-align: center;
     list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.liBlock li {}
+.liBlock li {
+    margin-top: 30px;
+    font-size: 18px;
+}

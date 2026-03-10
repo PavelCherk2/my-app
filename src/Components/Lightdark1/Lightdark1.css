@@ -1,15 +1,10 @@
-.light img,
-.dark img {
-    margin-left: 85%;
-    margin-top: 2%;
-    width: 100px;
+.toggleBtn {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    width: 50px;
+    cursor: pointer;
 }
-
-/* .dark img {
-    margin-left: 85%;
-    margin-top: 2%;
-    width: 100px;
-} */
 
 .light {
     width: 500px;
@@ -18,14 +13,8 @@
     margin-right: auto;
     background-color: rgb(243, 226, 149);
     padding: 10px;
-    margin-top: 60px;
     border-radius: 20px;
-}
-
-.light img {
-    width: 300px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 40px;
 }
 
 .light p {
@@ -40,11 +29,11 @@
     margin-right: auto;
     background-color: rgb(4, 13, 143);
     padding: 10px;
-    margin-top: 60px;
     border-radius: 20px;
+    margin-top: 40px;
 }
 
-.dark img {
+.pict {
     width: 300px;
     margin-right: auto;
     margin-left: auto;
